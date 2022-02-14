@@ -1,0 +1,199 @@
+
+.tweet {
+	position: relative;
+	/* display: flex; */
+	padding: 10px;
+	border: 1px rgb(196, 207, 214) solid;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.tw-profile {
+	width: 100%;
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.field {
+	width: 100%;
+	overflow: hidden;
+}
+
+.tw-profile-img {
+	width: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+	height: 60px;
+	margin-right: 10px;
+}
+
+.info {
+	margin-bottom: 5px;
+}
+
+.media {
+	margin-top: 10px;
+	outline-style: none;
+	border-radius: 16px;
+	/* border-color: rgb(196, 207, 214);
+	border-width: 1px;
+	border-style: solid; */
+	overflow: hidden;
+	height: 300px;
+	position: relative;
+	background-color: #0000001a
+}
+
+.media-img {
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	cursor: pointer;
+}
+
+.img_css {
+	inset: 0px;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.row {
+	height: 5px;
+    z-index: 99;
+    background-color: white;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.r3 {
+	left: 50%;
+}
+
+.col {
+	width: 5px;
+	z-index: 99;
+    background-color: white;
+	position: absolute;
+	height: 100%;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.player {
+	position: absolute;
+	background-color: rgb(29, 161, 242);
+	width: 60px;
+	height: 60px;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	border-radius: 100%;
+    border: 5px white solid;
+
+}
+
+.btn {
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+}
+
+.bottom {
+	margin: 10px;
+    margin-bottom: 0px;
+    color: rgb(91, 112, 131);
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bot_menu {
+	-webkit-box-pack: start;
+	justify-content: flex-start;
+	
+	-webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+	flex-direction: row;
+	display: flex;
+}
+.svg_img {
+	color: rgb(255, 255, 255);
+	vertical-align: bottom;
+    fill: currentColor;
+}
+
+.svg_btn {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.svg_bottom {
+	margin-right: 10px;
+	width: 19px;
+	color: rgb(91, 112, 132);
+}
+
+.date {
+	color: rgb(91, 112, 131);
+}
+
+.m-full {
+	width: 100%;
+	height: 100%;
+}
+
+.m-half {
+	width: 50%;
+	height: 100%;
+}
+
+.m-fullhalf {
+	width: 50%;
+	height: 50%;
+}
+
+.svg-img {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	background-color: rgb(91, 112, 132);
+}
+
+.svg-reply {
+	mask: url('../svg/reply.svg') no-repeat center / contain;
+}
+.svg-retweet {
+	mask: url('../svg/retweet.svg') no-repeat center / contain;
+}
+.svg-fav {
+	mask: url('../svg/favorite.svg') no-repeat center / contain;
+}
+.svg-share {
+	mask: url('../svg/share.svg') no-repeat center / contain;
+}
+.svg-btn {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 60%;
+    background-color: white;
+	mask: url('../svg/playbtn.svg') no-repeat center / contain;
+}
